@@ -1,4 +1,4 @@
-# Bien Dev Task
+# Bien Dev Task - Wordpress theme
 
 ## Installation Options
 
