@@ -1,0 +1,69 @@
+.post-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+    gap: 16px;
+    row-gap: 60px;
+    padding: 40px;
+}
+
+@media screen and (max-width: 520px) {
+    .post-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+.post-card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-family: 'DM Mono';
+}
+
+.post-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.post-title {
+    color: black;
+
+    font-family: "DM Mono";
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.post-title a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.post-title a:hover {
+    color: #ff6f61;
+}
+
+.post-architect {
+    font-family: "DM Mono";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.post-tag {
+    font-family: 'DM Sans';
+    align-self: flex-start;
+    background-color: #EA7D66;
+    color: black;
+    font-size: 1rem;
+    padding: 8px;
+    text-transform: lowercase;
+    font-weight: 400;
+    width: fit-content;
+}

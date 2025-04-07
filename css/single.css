@@ -1,0 +1,100 @@
+.single-post {
+    width: 100%;
+    padding: 0px 40px;
+    font-family: 'DM Sans', sans-serif;
+    margin: 0 auto;
+}
+
+.single-post-image {
+    height: 620px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.single-post-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.single-post-container {
+    padding: 40px 14% 0 19%;
+}
+
+@media screen and (max-width: 1000px) {
+    .single-post-container {
+        padding: 40px 5% 0 5%;
+    }
+}
+
+.single-post-header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.single-post-title {
+    font-family: 'DM Mono';
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+
+.single-post-title .space {
+    width: 30px;
+}
+
+.single-post-architect {
+    font-family: 'DM Mono';
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.single-post-tag {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    width: fit-content;
+
+    padding: 8px;
+    text-transform: lowercase;
+
+    align-self: flex-start;
+    background-color: #EA7D66;
+    color: black;
+}
+
+.single-post-content {
+    padding: 40px 0;
+    max-width: 670px;
+    line-height: 1.7;
+    font-size: 1rem;
+    color: #333;
+}
+
+.single-post-content img {
+    padding-bottom: 40px;
+}
+
+.single-post-content p {
+    padding-bottom: 40px;
+
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}

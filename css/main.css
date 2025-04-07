@@ -1,0 +1,71 @@
+/* Reset default margins/paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0 !important;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    font-family: "DM Mono";
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    color: #EA7D66;
+}
+
+@media screen and (max-width: 700px) {
+    .hero-title {
+        font-size: 3rem;
+    }
+}
+
+
+.hero-title .space {
+    width: 50px;
+}
+
+.hero-container {
+    padding: 0 40px;
+    height: 26.5rem;
+}
+
+.hero-banner {
+    background-color: black;
+    padding: 100px 20px;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
